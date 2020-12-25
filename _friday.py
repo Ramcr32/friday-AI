@@ -8,7 +8,7 @@ import random
 import requests
 import json
 # from gtts import gTTS
-import playsound
+#import playsound
 import wikipedia
 
 
@@ -18,13 +18,6 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice',voices[1].id)
 
 
-
-
-    
-    
-    
-
-    
 
 def speak(audio):
     

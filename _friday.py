@@ -101,7 +101,7 @@ if __name__ == '__main__':
         elif 'news' in query:
             engine.setProperty('rate',125)
             speak("hiiii...i am your news reporter ")
-            url="http://newsapi.org/v2/top-headlines?country=in&apiKey=222fbef7c2594f41826767e93deeb350"
+            url="http://newsapi.org/v2/top-headlines?country=in&apiKey="your api key"
             news=requests.get(url).text
             news_in_dict=json.loads(news)
             art=news_in_dict['articles']
